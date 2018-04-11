@@ -1,0 +1,19 @@
+@import "vars.scss";
+
+.menu {
+  display: inline-block;
+  position: relative;
+  height: $height-header;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-element {
+  position: relative;
+  margin: 0 15px;
+  line-height: $height-header;
+  display: inline-block;
+  font-size: 1em;
+  color: white;
+}

@@ -28,12 +28,12 @@ const plugins = [
         IS_PRODUCTION: isProd,
     }),
     new webpack.ProvidePlugin({
-       'React': 'react',
+        'React': 'react',
     }),
     extractCSS
 ];
 
-if (isProd){
+if (isProd) {
     plugins.push(new UglifyJSPlugin());
 }
 
@@ -85,11 +85,20 @@ export default {
                     ]
                 }),
             },
+            {
+                test: /\.(gif|png|jpe?g|svg)$/i,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: 'images/[name][hash].[ext]'
+                    }
+                }]
+            },
         ]
     },
     plugins,
     resolve: {
-        modules: ['node_modules', srcPath ],
+        modules: ['node_modules', srcPath],
         extensions: ['.js', '.jsx'],
         // alias: {
         //     'components': path.resolve(srcPath, 'components'),

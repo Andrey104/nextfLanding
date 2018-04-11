@@ -1,0 +1,56 @@
+@import "menu";
+@import "vars";
+
+body {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  opacity: .7;
+  height: $height-header;
+  background-color: $color-header;
+  margin: 0;
+}
+
+.logo {
+  display: block;
+  height: $height-header;
+  width: 200px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background: url('../images/logo.png') no-repeat;
+
+}
+
+.phone-info {
+  display: block;
+  position: absolute;
+  right: 15px;
+  height: $height-header;
+
+  @include small-screen {
+    display: none;
+  }
+}
+
+.phone {
+  position: relative;
+  line-height: $height-header;
+  font-size: $header-font-size - 0.2em;
+  color: white;
+  display: inline-block;
+
+  @include medium-screen {
+    font-size: $header-font-size - 0.4em;
+  }
+}
+
+.div-container {
+  width: 100%;
+  position: fixed;
+
+}
+

@@ -1,6 +1,5 @@
 import Header from './Header'
-
-
+import Content from './Content'
 
 export default class extends React.Component {
 
@@ -13,7 +12,10 @@ export default class extends React.Component {
 
     render() {
         return (
-            <Header />
+            <div>
+                <Header/>
+                <Content/>
+            </div>
         )
     }
 

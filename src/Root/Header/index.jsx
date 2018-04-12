@@ -4,7 +4,7 @@ export default class extends React.Component {
     render() {
         return (
             <div>
-                <div className={styles.header}></div>
+                <div className={styles.header}/>
                 <div className={styles['div-container']}>
                     <div className={styles.logo}>
                     </div>

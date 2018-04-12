@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e08235d-f30a-454f-8ee5-50e583455aeb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Content/css/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Content/images/oboi.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Root/Content/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Header/css/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Header/css/_vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Root/Header/css/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Header/css/menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Header/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Header/css/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Header/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Header/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Root/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/media/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/media/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Phone/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Phone/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/media/_mixins.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,28 +21,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Root/Header/css/styles.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/Laptop/css/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="-162">
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Welcome/css/styles.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/Phone/css/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="757">
+              <caret line="73" column="3" lean-forward="true" selection-start-line="69" selection-start-column="2" selection-end-line="73" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Root/Header/index.jsx">
+      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/media/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -85,18 +75,22 @@
         <option value="$PROJECT_DIR$/webpack.config.babel.js" />
         <option value="$PROJECT_DIR$/src/Root/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/media/_mixins.scss" />
-        <option value="$PROJECT_DIR$/src/Root/Header/css/menu.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/index.jsx" />
-        <option value="$PROJECT_DIR$/src/Root/Content/index.jsx" />
         <option value="$PROJECT_DIR$/src/Root/Header/css/_vars.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/components/Welcome/css/_vars.scss" />
-        <option value="$PROJECT_DIR$/src/media/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/components/Welcome/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Welcome/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Header/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Header/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Phone/index.jsx" />
+        <option value="$PROJECT_DIR$/src/Root/Header/css/menu.scss" />
+        <option value="$PROJECT_DIR$/src/Root/Content/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Laptop/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Phone/css/styles.scss" />
+        <option value="$PROJECT_DIR$/src/components/Laptop/css/styles.scss" />
+        <option value="$PROJECT_DIR$/src/media/_mixins.scss" />
       </list>
     </option>
   </component>
@@ -148,14 +142,14 @@
               <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Welcome" type="462c0819:PsiDirectoryNode" />
+              <item name="Phone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
               <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Welcome" type="462c0819:PsiDirectoryNode" />
+              <item name="Phone" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -163,8 +157,14 @@
               <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Welcome" type="462c0819:PsiDirectoryNode" />
+              <item name="Phone" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
@@ -222,10 +222,11 @@
       <recent name="$PROJECT_DIR$/src/Root/media" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Laptop/images" />
+      <recent name="$PROJECT_DIR$/src/components/Phone/images" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/Root/Header/images" />
       <recent name="$PROJECT_DIR$/src/components/Welcome" />
-      <recent name="$PROJECT_DIR$/src/Root/Content/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,12 +286,12 @@
       <workItem from="1523389445548" duration="2770000" />
       <workItem from="1523434137158" duration="5139000" />
       <workItem from="1523456177716" duration="12321000" />
-      <workItem from="1523522569117" duration="11338000" />
+      <workItem from="1523522569117" duration="16405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33848000" />
+    <option name="totallyTimeSpent" value="38915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -301,10 +302,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.624025" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.62329483" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30577224" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30535153" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -518,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Header/css/menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Root/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -542,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Welcome/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -563,17 +550,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/media/_mixins.scss">
+    <entry file="file://$PROJECT_DIR$/src/Root/Header/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Header/css/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="90">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -584,10 +564,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Header/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/Root/Header/css/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="282">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Phone/images/iphone_hover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Phone/images/iphone.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Header/css/menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Phone/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Laptop/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Phone/css/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="73" column="3" lean-forward="true" selection-start-line="69" selection-start-column="2" selection-end-line="73" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Laptop/css/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/media/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

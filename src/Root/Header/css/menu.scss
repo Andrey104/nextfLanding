@@ -39,10 +39,10 @@
   font-size: $header-font-size;
   color: black;
   user-select: none;
+  cursor: pointer;
 
-  &:hover{
-    color: #FF473A;
-    border-bottom: 2px solid #FF473A;
-    cursor: pointer;
+  &:hover {
+    border-bottom: 2px solid #cd6367;
+    color: #cd6367;
   }
 }

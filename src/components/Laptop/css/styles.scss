@@ -1,0 +1,77 @@
+@import "../../../media/mixins";
+.container-mac {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+  height: 100vh;
+  cursor: pointer;
+
+  &:hover {
+    transition: all .6s linear;
+    background-color: #cd6367;
+  }
+
+  &:hover .mac {
+    background: url("../images/macbook_hover.png") no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: center;
+    transition: all .6s linear;
+  }
+
+  &:hover .description-mac {
+    transition: all .3s linear;
+    color: white;
+  }
+  &:hover .title-mac {
+    transition: all .3s linear;
+    color: white;
+  }
+}
+
+.mac {
+  height: 420px;
+  width: 420px;
+  background: url("../images/macbook.png") no-repeat;
+  background-size: contain;
+  background-position-y: center;
+  background-position-x: center;
+  position: absolute;
+  top: calc(50% - 210px);
+  left: calc(50% - 210px);
+
+
+
+}
+
+.title-mac {
+  width: 240px;
+  text-align: center;
+  position: absolute;
+  left: calc(50% - 120px);
+  top: calc(50% + 240px);
+  font-size: 1.3em;
+  color: black;
+
+  @include large-screen{
+    width: 340px;
+    font-size: 1.8em;
+    left: calc(50% - 170px);
+  }
+}
+
+.description-mac {
+  width: 240px;
+  text-align: center;
+  position: absolute;
+  left: calc(50% - 120px);
+  top: calc(50% + 280px);
+  font-size: 1.1em;
+  color: black;
+
+  @include large-screen{
+    width: 340px;
+    font-size: 1.4em;
+    left: calc(50% - 170px);
+  }
+}

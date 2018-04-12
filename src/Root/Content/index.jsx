@@ -1,14 +1,10 @@
-import Welcome from '../../components/Welcome';
-import Phone from '../../components/Phone';
-import Laptop from '../../components/Laptop';
+import MainPage from '../../components/MainPage';
 
 export default class extends React.Component {
     render() {
         return (
             <div>
-               <Welcome />
-               <Phone />
-               <Laptop />
+                <MainPage/>
             </div>
         )
     }

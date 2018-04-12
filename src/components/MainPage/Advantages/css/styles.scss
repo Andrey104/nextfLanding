@@ -1,0 +1,31 @@
+@import "../../../../Root/Header/css/vars";
+
+.advantages-container {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - #{$height-header});
+  min-width: 830px;
+}
+
+.title {
+  user-select: none;
+  width: 650px;
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: 30px auto 0;
+  font-size: 4em;
+  border-bottom: 2px solid #cd6367;
+}
+
+.left-side {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+}
+
+.right-side {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+}

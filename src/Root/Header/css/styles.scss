@@ -3,12 +3,14 @@
 
 body {
   margin: 0;
+  min-width: 830px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header {
+  z-index: 900;
   width: 100%;
   position: fixed;
-  opacity: .7;
   height: $height-header;
   background-color: $color-header;
   margin: 0;
@@ -17,12 +19,12 @@ body {
 .logo {
   display: block;
   height: $height-header;
-  width: 200px;
-  position: absolute;
+  width: 150px;
   left: 5px;
-  top: 5px;
+  position: absolute;
   background: url('../images/logo.png') no-repeat;
-
+  background-size: contain;
+  background-position-y: center;
 }
 
 .phone-info {
@@ -40,17 +42,15 @@ body {
   position: relative;
   line-height: $height-header;
   font-size: $header-font-size - 0.2em;
-  color: white;
+  color: black;
   display: inline-block;
 
-  @include medium-screen {
-    font-size: $header-font-size - 0.4em;
-  }
 }
 
 .div-container {
+  z-index: 1000;
   width: 100%;
   position: fixed;
-
+  min-width: 830px;
 }
 

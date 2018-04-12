@@ -1,0 +1,65 @@
+@import "../../../media/mixins";
+@import "vars";
+
+.back-image {
+  width: 100%;
+  min-width: 830px;
+  position: relative;
+  height: 100vh;
+  background: url("../images/oboi.png") no-repeat;
+  background-size: cover;
+  @include medium-screen {
+  }
+}
+
+.content-first-page {
+  width: $width-order-div;
+  height: $height-order-div;
+  left: calc(50% - #{$width-order-div} / 2);
+  top: calc(50% - #{$height-order-div} / 2);
+  position: absolute;
+  min-width: 830px;
+
+  @include medium-screen {
+    $new-width: $width-order-div - 300px;
+    width: $new-width;
+    left: calc(50% - #{$new-width} / 2);
+  }
+
+}
+
+.main-label {
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  font-size: 4em;
+  left: 50%;
+
+}
+
+.btn-order {
+  margin-top: 200px;
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  left: calc(50% - 125px);
+  border-radius: 10px;
+  background-color: #544648;
+  border-style: none;
+  font-size: 1.5em;
+  color: white;
+  outline: none;
+
+  @include medium-screen{
+    margin-top: 120px;
+  }
+
+  @include small-screen{
+    margin-top: 80px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #3a2d34;
+  }
+}

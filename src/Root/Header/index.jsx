@@ -8,15 +8,15 @@ export default class extends React.Component {
                 <div className={styles['div-container']}>
                     <div className={styles.logo}>
                     </div>
-                    <header className={styles.menu}>
+                    <div className={styles.menu}>
                         <a className={styles['menu-element']}>Главная</a>
                         <a className={styles['menu-element']}>Услуги</a>
                         <a className={styles['menu-element']}>Портфолио</a>
                         <a className={styles['menu-element']}>Контакты</a>
                         <a className={styles['menu-element']}>Клиенты</a>
-                    </header>
+                    </div>
                     <div className={styles['phone-info']}>
-                        <div className={styles.phone}>8 (499) 229-30-39</div>
+                        <div className={styles.phone}>+7 (499) 229-30-39</div>
                     </div>
                 </div>
             </div>

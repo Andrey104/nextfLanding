@@ -94,6 +94,15 @@ export default {
                     }
                 }]
             },
+            {
+                test: /\.(eot|svg|ttf|woff|woff2)$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: 'fonts/[name][hash].[ext]'
+                    }
+                },
+            }
         ]
     },
     plugins,

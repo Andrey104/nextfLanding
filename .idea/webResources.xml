@@ -8,6 +8,9 @@
             <path value="file://$PROJECT_DIR$" />
             <path value="file://$PROJECT_DIR$/src" />
             <path value="file://$PROJECT_DIR$/src/components" />
+            <path value="file://$PROJECT_DIR$/src/Root" />
+            <path value="file://$PROJECT_DIR$/src/Root/Content" />
+            <path value="file://$PROJECT_DIR$/src/Root/Header" />
           </resourceRoots>
         </entryData>
       </entry>

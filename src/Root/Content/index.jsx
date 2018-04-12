@@ -1,12 +1,10 @@
-import styles from './css/styles.scss'
+import Welcome from '../../components/Welcome';
 
 export default class extends React.Component {
     render() {
         return (
             <div>
-                <div className={styles['back-image']}>
-                </div>
-                <div className={styles['back-image']}></div>
+               <Welcome />
             </div>
         )
     }

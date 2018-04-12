@@ -1,5 +1,5 @@
 @import "vars";
-@import "../../media/mixins";
+@import "../../../media/mixins";
 
 .menu {
   display: block;
@@ -13,34 +13,31 @@
   padding: 0;
 
   @include medium-screen {
-    width: $menu-width - 300px;
-    $new-width: $menu-width - 300px;
+    width: $menu-width - 150px;
+    $new-width: $menu-width - 150px;
     left: calc(50% - #{$new-width} / 2);
     a {
-      font-size: $header-font-size - 0.2em;
-      margin: 0 20px;
+      margin: 0 15px;
     }
   }
 
   @include small-screen {
-    width: 600px;
+    width: 550px;
     right: 10px;
     left: auto;
     margin: 0;
   }
 
-  @include tiny-screen {
-  }
 }
 
 .menu-element {
   position: relative;
-  margin: 0 40px;
+  margin: 0 30px;
   line-height: $height-header;
   height: $height-header - 2px;
   display: inline-block;
   font-size: $header-font-size;
-  color: white;
+  color: black;
   user-select: none;
 
   &:hover{

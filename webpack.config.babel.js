@@ -87,12 +87,13 @@ export default {
             },
             {
                 test: /\.(gif|png|jpe?g|svg)$/i,
-                use: [{
-                    loader: 'file-loader',
-                    options: {
-                        name: 'images/[name][hash].[ext]'
-                    }
-                }]
+                use: [
+                    {
+                        loader: "url-loader",
+                        options: {
+                            limit: 25000,
+                        }
+                    }]
             },
             {
                 test: /\.(eot|svg|ttf|woff|woff2)$/,

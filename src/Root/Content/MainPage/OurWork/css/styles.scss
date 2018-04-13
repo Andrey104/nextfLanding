@@ -1,0 +1,50 @@
+@import "../../../../Header/css/vars";
+
+.container-work {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - #{$height-header});
+  min-width: 830px;
+}
+
+@mixin medium-screen() {
+  @media screen and (max-width: 1200px) {
+    @content
+  }
+}
+
+.title {
+  user-select: none;
+  width: 500px;
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: 50px auto 0;
+  font-size: 3em;
+
+  @include medium-screen() {
+    font-size: 2em;
+    width: 330px;
+  }
+}
+
+.switcher {
+  width: 400px;
+  height: 40px;
+  margin: 100px auto;
+}
+
+.element-switcher {
+  width: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 2em;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.line-switcher {
+  margin-top: 5px;
+  height: 2px;
+  background-color: #cd6367;
+}

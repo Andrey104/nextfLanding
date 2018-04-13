@@ -1,4 +1,4 @@
-@import "../../../../Root/Header/css/vars";
+@import "../../../../Header/css/vars";
 
 .advantages-container {
   position: relative;
@@ -7,15 +7,26 @@
   min-width: 830px;
 }
 
+@mixin medium-screen(){
+  @media screen and (max-width: 1200px) {
+    @content
+  }
+}
+
 .title {
   user-select: none;
-  width: 650px;
+  width: 500px;
   text-align: center;
   display: block;
   position: relative;
-  margin: 30px auto 0;
+  margin: 50px auto 0;
   font-size: 3em;
   border-bottom: 2px solid #cd6367;
+
+  @include medium-screen(){
+    font-size: 2em;
+    width: 330px;
+  }
 }
 
 .left-side {

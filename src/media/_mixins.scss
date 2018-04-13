@@ -15,6 +15,7 @@
     @content
   }
 }
+
 @mixin tiny-screen(){
   @media screen and (max-width: 830px) {
     @content

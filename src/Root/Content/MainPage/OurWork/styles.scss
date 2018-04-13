@@ -1,4 +1,4 @@
-@import "../../../../Header/css/vars";
+@import "../../../Header/css/vars";
 
 .container-work {
   position: relative;
@@ -31,7 +31,10 @@
 .switcher {
   width: 400px;
   height: 40px;
-  margin: 100px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
 }
 
 .element-switcher {
@@ -44,7 +47,16 @@
 }
 
 .line-switcher {
-  margin-top: 5px;
-  height: 2px;
+  margin-top: 4px;
+  height: 4px;
+  border-radius: 5px;
   background-color: #cd6367;
+}
+
+.under-line {
+  width: 800px;
+  margin: 5px auto;
+  border-radius: 5px;
+  height: 2px;
+  background-color: #b2b2b2;
 }

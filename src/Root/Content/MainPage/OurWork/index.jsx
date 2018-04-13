@@ -1,4 +1,6 @@
-import styles from './css/styles.scss'
+import styles from './styles.scss'
+import Agile from './Agile'
+import FixedCost from './FixedCost'
 
 export default class extends React.Component {
 
@@ -23,6 +25,10 @@ export default class extends React.Component {
                         {!switcher && <div className={styles['line-switcher']}/>}
                     </div>
                 </div>
+                <div className={styles['under-line']} />
+                {switcher && <Agile />}
+                {!switcher && <FixedCost />}
+
             </div>
         )
     }

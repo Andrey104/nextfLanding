@@ -1,4 +1,4 @@
-import styles from './css/styles.scss'
+import styles from './styles.scss'
 export default class extends React.Component {
     render() {
         return (

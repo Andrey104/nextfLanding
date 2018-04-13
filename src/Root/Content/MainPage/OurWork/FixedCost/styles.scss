@@ -1,0 +1,88 @@
+.container {
+  width: 100%;
+}
+
+.image {
+  margin-top: 30px;
+  height: 300px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+%image-dev {
+  display: inline-block;
+  position: relative;
+  margin: 0 48px;
+  width: 70px;
+  height: 70px;
+  top: 90px;
+}
+
+.signature {
+  user-select: none;
+  position: relative;
+  top: 70px;
+}
+
+.image-order {
+  @extend %image-dev;
+  background: url("./images/order.png") no-repeat;
+}
+
+.image-analysis {
+  @extend %image-dev;
+  background: url("./images/analysis.png") no-repeat;
+}
+
+.image-contract {
+  @extend %image-dev;
+  background: url("./images/contract.png") no-repeat;
+}
+
+.image-development {
+  @extend %image-dev;
+  background: url("./images/development.png") no-repeat;
+}
+
+.image-test {
+  @extend %image-dev;
+  background: url("./images/test.png") no-repeat;
+}
+
+.image-start {
+  @extend %image-dev;
+  background: url("./images/start.png") no-repeat;
+}
+
+.title {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.description {
+
+}
+
+li {
+  color: #cd6367;
+}
+
+.list {
+  width: 1000px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+span {
+  color: black;
+}
+
+.element-list {
+  margin-top: 10px;
+}

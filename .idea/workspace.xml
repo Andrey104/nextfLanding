@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e08235d-f30a-454f-8ee5-50e583455aeb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,20 +24,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/css/styles.scss">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="162">
+              <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="504">
+              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -41,6 +58,7 @@
       <find>web</find>
       <find>4e</find>
       <find>4em</find>
+      <find>transit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -49,14 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Root/Header/vars.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/Root/Header/_vars.scss" />
-        <option value="$PROJECT_DIR$/src/Root/Header/_mixins.scss" />
-        <option value="$PROJECT_DIR$/src/Root/Content/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Header/menu.scss" />
         <option value="$PROJECT_DIR$/src/Root/Header/styles.scss" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -92,14 +102,22 @@
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageLeft/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageRight/index.jsx" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageRight/css/styles.scss" />
-        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/index.jsx" />
         <option value="$PROJECT_DIR$/src/media/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageOne/css/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageOne/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/index.jsx" />
-        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/index.jsx" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/css/styles.scss" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/styles.scss" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/index.jsx" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/styles.scss" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/index.jsx" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/index.jsx" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss" />
       </list>
     </option>
   </component>
@@ -128,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,25 +192,6 @@
               <item name="Root" type="462c0819:PsiDirectoryNode" />
               <item name="Content" type="462c0819:PsiDirectoryNode" />
               <item name="MainPage" type="462c0819:PsiDirectoryNode" />
-              <item name="Advantages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Root" type="462c0819:PsiDirectoryNode" />
-              <item name="Content" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPage" type="462c0819:PsiDirectoryNode" />
-              <item name="Advantages" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Root" type="462c0819:PsiDirectoryNode" />
-              <item name="Content" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPage" type="462c0819:PsiDirectoryNode" />
               <item name="OurWork" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,27 +202,23 @@
               <item name="Content" type="462c0819:PsiDirectoryNode" />
               <item name="MainPage" type="462c0819:PsiDirectoryNode" />
               <item name="OurWork" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="Agile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
               <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Root" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Root" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="MainPage" type="462c0819:PsiDirectoryNode" />
+              <item name="OurWork" type="462c0819:PsiDirectoryNode" />
+              <item name="FixedCost" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,19 +234,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages" />
+      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop" />
+      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork" />
+      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Phone" />
+      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageLeft" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/images" />
+      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/images" />
       <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageRight/images" />
       <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageLeft" />
       <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageLeft/css" />
-      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageLeft/css/images" />
-      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageRight" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageLeft" />
-      <recent name="$PROJECT_DIR$/src/Root/Content" />
-      <recent name="$PROJECT_DIR$/src/components/MainPage" />
-      <recent name="$PROJECT_DIR$/src/static" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,12 +309,13 @@
       <workItem from="1523522569117" duration="28397000" />
       <workItem from="1523564233320" duration="600000" />
       <workItem from="1523632743749" duration="5834000" />
-      <workItem from="1523638634713" duration="4060000" />
+      <workItem from="1523638634713" duration="4191000" />
+      <workItem from="1523645055326" duration="5919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61401000" />
+    <option name="totallyTimeSpent" value="67451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -330,11 +325,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4501574" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30535153" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30471203" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -343,7 +339,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,44 +348,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageOne/css/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Header/css/menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Header/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54234">
-          <caret line="3013" column="21" selection-start-line="3013" selection-start-column="18" selection-end-line="3013" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -567,9 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,32 +555,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/css/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageLeft/css/styles.scss" />
     <entry file="file://$PROJECT_DIR$/src/Root/Header/css/_vars.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Phone/css/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -658,23 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="40" column="72" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Root/Content/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -692,24 +608,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/css/styles.scss">
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Phone/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="6" selection-end-column="19" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="522">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/css/styles.scss">
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/images/analysis.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,6 @@
 import Header from './Header'
 import Content from './Content'
+import styles from './styles.scss'
 
 export default class extends React.Component {
 
@@ -12,7 +13,7 @@ export default class extends React.Component {
 
     render() {
         return (
-            <div>
+            <div style={styles}>
                 <Header/>
                 <Content/>
             </div>

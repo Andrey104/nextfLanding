@@ -15,12 +15,13 @@
 
 .title {
   user-select: none;
-  width: 500px;
+  width: 430px;
   text-align: center;
   display: block;
   position: relative;
   margin: 50px auto 0;
   font-size: 3em;
+  border-bottom: 2px solid #cd6367;
 
   @include medium-screen() {
     font-size: 2em;

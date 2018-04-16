@@ -3,6 +3,7 @@ import Phone from './Phone';
 import Laptop from './Laptop';
 import Advantages from './Advantages';
 import OurWork from './OurWork';
+import Portfolio from '../../../components/Portfolio';
 
 export default class extends React.Component {
     render() {
@@ -13,6 +14,7 @@ export default class extends React.Component {
                 <Laptop />
                 <Advantages />
                 <OurWork />
+                <Portfolio />
             </div>
         )
     }

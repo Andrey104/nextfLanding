@@ -1,0 +1,83 @@
+@import "../../Root/Header/css/vars";
+@import "../../media/mixins";
+@import "mixins";
+
+.container {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - #{$height-header});
+  min-width: 830px;
+  background-color: #37383e;
+}
+
+.container-apps {
+  position: relative;
+  top: 70px;
+  height: 450px;
+  width: 1360px;
+  left: calc(50% - 680px);
+
+  @include med-screen {
+    width: 1000px;
+    left: calc(50% - 500px);
+  }
+
+  @include small-screen {
+    width: 830px;
+    left: calc(50% - 415px);
+  }
+}
+
+.title {
+  top: 30px;
+  width: 250px;
+  position: relative;
+  left: calc(50% - 125px);
+  color: white;
+  font-size: 3em;
+  border-bottom: 2px solid #cd6367;
+  user-select: none;
+}
+
+.description {
+  top: 60px;
+  position: relative;
+  width: 1000px;
+  left: calc(50% - 500px);
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+
+  @include small-screen() {
+    @media screen and (max-width: 1023px) {
+      width: 830px;
+      left: calc(50% - 415px);
+      font-size: 1em;
+    }
+  }
+}
+
+.button {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 150px);
+  top: 80%;
+  background-color: #cd6367;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #8f3432;
+  }
+}
+
+.left-side {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}

@@ -1,3 +1,4 @@
+@import '../../../../../media/mixins';
 .container {
   width: 100%;
 }
@@ -77,6 +78,13 @@ li {
   margin-right: auto;
   text-align: left;
   font-size: 1.2em;
+
+  @include small-screen() {
+    @media screen and (max-width: 1023px) {
+      width: 800px;
+      font-size: 0.95em;
+    }
+  }
 }
 
 span {

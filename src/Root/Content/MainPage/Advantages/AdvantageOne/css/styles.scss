@@ -20,8 +20,8 @@
 
 %image {
   position: relative;
-  left: calc(50% - 320px);
-  top: 10px;
+  left: 50px;
+  top: calc(50% - 40px);
   width: 80px;
   height: 80px;
   background-position-x: center;
@@ -38,13 +38,13 @@
 
 .content {
   position: absolute;
-  width: 400px;
+  width: 430px;
   margin: auto;
   font-size: 1.2em;
   height: 30px;
   text-align: center;
   top: 75px;
-  left: calc(50% - 200px);
+  right: 50px;
 
   @include large-screen(){
     width: 350px;
@@ -70,7 +70,7 @@
   height: 30px;
   text-align: center;
   top: 35px;
-  left: calc(50% - 215px);
+  right: 50px;
 
   @include large-screen(){
     width: 400px;

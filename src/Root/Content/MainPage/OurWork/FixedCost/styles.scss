@@ -3,9 +3,11 @@
 .container {
   width: 100%;
   position: relative;
+  display: block;
 }
 
 .image {
+  display: block;
   margin-top: 30px;
   height: 300px;
   width: 830px;

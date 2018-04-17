@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e08235d-f30a-454f-8ee5-50e583455aeb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Root/Header/css/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Header/css/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Header/css/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Header/css/menu.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,16 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menu.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menu.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Root/Header/css/menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="287">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_vars.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_vars.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Root/Header/css/_vars.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
@@ -52,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/MainPage/Laptop/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/MainPage/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/MainPage/Laptop/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/components/MainPage/Advantages/AdvantageOne/css/styles.scss" />
@@ -103,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Header/css/_vars.scss" />
+        <option value="$PROJECT_DIR$/src/Root/Header/css/menu.scss" />
       </list>
     </option>
   </component>
@@ -288,18 +288,18 @@
       <workItem from="1523878739423" duration="14822000" />
       <workItem from="1523910251396" duration="683000" />
       <workItem from="1523957714349" duration="8917000" />
-      <workItem from="1523976007057" duration="10357000" />
+      <workItem from="1523976007057" duration="10455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103127000" />
+    <option name="totallyTimeSpent" value="103225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23299947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23299947" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -308,7 +308,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.386149" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30430222" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30430222" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -644,17 +644,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Header/css/menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Root/Header/css/_vars.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Header/css/menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>

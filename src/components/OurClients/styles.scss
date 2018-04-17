@@ -1,0 +1,65 @@
+@import "../../media/mixins";
+
+.container {
+  height: 400px;
+
+  position: relative;
+
+
+}
+
+.title {
+  user-select: none;
+  width: 350px;
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: 30px auto 0;
+  font-size: 3em;
+  border-bottom: 2px solid #cd6367;
+}
+
+.img-container {
+  position: relative;
+  height: 300px;
+  width: 1200px;
+  left: calc(50% - 600px);
+
+  @include medium-screen {
+    width: 1000px;
+    left: calc(50% - 500px);
+  }
+
+  @include small-screen(){
+    width: 800px;
+    left: calc(50% - 400px);
+  }
+}
+
+%img-client {
+  display: inline-block;
+  margin: 0 40px;
+  height: 300px;
+  width: 320px;
+
+}
+
+@for $i from 1 through 3 {
+  .img-client-#{$i} {
+    @extend %img-client;
+    background: url('./images/#{$i}.png') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+    @include medium-screen {
+      width: 250px;
+      background-size: contain;
+    }
+
+    @include small-screen(){
+      width: 190px;
+      background-size: contain;
+      margin: 0 38px;
+    }
+  }
+}

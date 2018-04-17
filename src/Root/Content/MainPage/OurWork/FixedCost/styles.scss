@@ -1,4 +1,5 @@
 @import '../../../../../media/mixins';
+
 .container {
   width: 100%;
 }
@@ -6,7 +7,7 @@
 .image {
   margin-top: 30px;
   height: 300px;
-  width: 1000px;
+  width: 830px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -15,46 +16,71 @@
 %image-dev {
   display: inline-block;
   position: relative;
-  margin: 0 48px;
+  margin: 0 13px;
   width: 70px;
   height: 70px;
   top: 90px;
 }
 
+.img-arrow {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  position: relative;
+  top: calc(50% - 10px);
+  background: url("./images/arrow.png") no-repeat;
+
+}
+
 .signature {
   user-select: none;
+  width: 110px;
+  text-align: center;
   position: relative;
-  top: 70px;
+  top: 80px;
+  left: -20px;
 }
 
 .image-order {
   @extend %image-dev;
   background: url("./images/order.png") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .image-analysis {
   @extend %image-dev;
   background: url("./images/analysis.png") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .image-contract {
   @extend %image-dev;
   background: url("./images/contract.png") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .image-development {
   @extend %image-dev;
   background: url("./images/development.png") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .image-test {
   @extend %image-dev;
   background: url("./images/test.png") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .image-start {
   @extend %image-dev;
   background: url("./images/start.png") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .title {

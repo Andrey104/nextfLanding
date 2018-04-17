@@ -7,22 +7,27 @@ export default class extends React.Component {
             <div className={styles['container']}>
                 <div className={styles['image']}>
                     <div className={styles['image-order']}>
-                        <span className={styles['signature']}>Заявка</span>
+                        <div className={styles['signature']}>Заявка</div>
                     </div>
+                    <div className={styles['img-arrow']} />
                     <div className={styles['image-analysis']}>
-                        <span className={styles['signature']}>Анализ</span>
+                        <div className={styles['signature']}>Анализ</div>
                     </div>
+                    <div className={styles['img-arrow']} />
                     <div className={styles['image-contract']}>
-                        <span className={styles['signature']}>Договор</span>
+                        <div className={styles['signature']}>Договор</div>
                     </div>
+                    <div className={styles['img-arrow']} />
                     <div className={styles['image-development']}>
-                        <span className={styles['signature']}>Разработка</span>
+                        <div className={styles['signature']}>Разработка</div>
                     </div>
+                    <div className={styles['img-arrow']} />
                     <div className={styles['image-test']}>
-                        <span className={styles['signature']}>Тестирование</span>
+                        <div className={styles['signature']}>Тестирование</div>
                     </div>
+                    <div className={styles['img-arrow']} />
                     <div className={styles['image-start']}>
-                        <span className={styles['signature']}>Запуск</span>
+                        <div className={styles['signature']}>Запуск</div>
                     </div>
                 </div>
                 <div className={styles['description']}/>

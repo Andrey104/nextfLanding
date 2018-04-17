@@ -3,6 +3,8 @@ import Phone from './Phone';
 import Laptop from './Laptop';
 import Advantages from './Advantages';
 import OurWork from './OurWork';
+import OurClients from '../../../components/OurClients';
+import OrderBottom from '../../../components/OrderBottom';
 import Portfolio from '../../../components/Portfolio';
 
 export default class extends React.Component {
@@ -15,6 +17,8 @@ export default class extends React.Component {
                 <Advantages />
                 <OurWork />
                 <Portfolio />
+                <OurClients />
+                <OrderBottom />
             </div>
         )
     }

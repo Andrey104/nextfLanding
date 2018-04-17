@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e08235d-f30a-454f-8ee5-50e583455aeb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,20 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="451">
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            <state relative-caret-position="396">
+              <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -82,7 +83,6 @@
         <option value="$PROJECT_DIR$/src/components/Portfolio/OneApp/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/index.jsx" />
         <option value="$PROJECT_DIR$/src/Root/index.jsx" />
-        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx" />
         <option value="$PROJECT_DIR$/webpack.config.babel.js" />
         <option value="$PROJECT_DIR$/src/components/OurClients/index.jsx" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/index.jsx" />
@@ -112,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/Root/Header/css/_vars.scss" />
         <option value="$PROJECT_DIR$/src/Root/Header/css/menu.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx" />
       </list>
     </option>
   </component>
@@ -317,18 +318,18 @@
       <workItem from="1523878739423" duration="14822000" />
       <workItem from="1523910251396" duration="683000" />
       <workItem from="1523957714349" duration="8917000" />
-      <workItem from="1523976007057" duration="12970000" />
+      <workItem from="1523976007057" duration="13519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105740000" />
+    <option name="totallyTimeSpent" value="106289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23299947" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23299947" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -337,7 +338,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.386149" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30430222" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30430222" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -673,17 +674,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state relative-caret-position="396">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss">
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="451">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>

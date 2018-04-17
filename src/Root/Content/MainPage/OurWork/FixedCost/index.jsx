@@ -8,24 +8,24 @@ export default class extends React.Component {
                 <div className={styles['image']}>
                     <div className={styles['image-order']}>
                         <div className={styles['signature']}>Заявка</div>
+                        <div className={styles['img-arrow']}/>
                     </div>
-                    <div className={styles['img-arrow']} />
                     <div className={styles['image-analysis']}>
                         <div className={styles['signature']}>Анализ</div>
+                        <div className={styles['img-arrow']}/>
                     </div>
-                    <div className={styles['img-arrow']} />
                     <div className={styles['image-contract']}>
                         <div className={styles['signature']}>Договор</div>
+                        <div className={styles['img-arrow']}/>
                     </div>
-                    <div className={styles['img-arrow']} />
                     <div className={styles['image-development']}>
                         <div className={styles['signature']}>Разработка</div>
+                        <div className={styles['img-arrow']}/>
                     </div>
-                    <div className={styles['img-arrow']} />
                     <div className={styles['image-test']}>
                         <div className={styles['signature']}>Тестирование</div>
+                        <div className={styles['img-arrow']}/>
                     </div>
-                    <div className={styles['img-arrow']} />
                     <div className={styles['image-start']}>
                         <div className={styles['signature']}>Запуск</div>
                     </div>

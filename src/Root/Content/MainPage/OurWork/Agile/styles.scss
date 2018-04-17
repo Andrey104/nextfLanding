@@ -7,7 +7,11 @@
 .image {
   margin-top: 30px;
   height: 300px;
+  width: 800px;
+  position: relative;
+  left: calc(50% - 400px);
   background: url("./images/agile.png") no-repeat;
+  background-size: contain;
   background-position-x: center;
   background-position-y: center;
 }
@@ -26,6 +30,13 @@ li {
   color: #cd6367;
 }
 
+@mixin ul-minimize() {
+  @media screen and (max-width: 1075px) {
+    width: 800px;
+    font-size: 0.95em;
+  }
+}
+
 .list {
   width: 1000px;
   margin-top: 40px;
@@ -34,12 +45,7 @@ li {
   text-align: left;
   font-size: 1.2em;
 
-  @include small-screen() {
-    @media screen and (max-width: 1023px) {
-      width: 800px;
-      font-size: 0.95em;
-    }
-  }
+  @include ul-minimize;
 
 }
 

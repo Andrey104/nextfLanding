@@ -3,13 +3,11 @@
 
 .back-image {
   width: 100%;
-  min-width: 830px;
+  min-width: 800px;
   position: relative;
   height: 100vh;
   background: url("../images/oboi.png") no-repeat;
   background-size: cover;
-  @include medium-screen {
-  }
 }
 
 .content-first-page {
@@ -18,7 +16,7 @@
   left: calc(50% - #{$width-order-div} / 2);
   top: calc(50% - #{$height-order-div} / 2);
   position: absolute;
-  min-width: 830px;
+  min-width: 800px;
 
   @include medium-screen {
     $new-width: $width-order-div - 300px;

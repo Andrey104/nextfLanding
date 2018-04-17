@@ -9,3 +9,9 @@
    @content
   }
 }
+
+@mixin advant(){
+  @media screen and (max-width: 1315px) {
+    @content
+  }
+}

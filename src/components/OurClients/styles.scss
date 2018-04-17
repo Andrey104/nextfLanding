@@ -10,13 +10,18 @@
 
 .title {
   user-select: none;
-  width: 350px;
+  width: 340px;
   text-align: center;
   display: block;
   position: relative;
-  margin: 30px auto 0;
+  margin: 50px auto 0;
   font-size: 3em;
   border-bottom: 2px solid #cd6367;
+
+  @include medium-screen() {
+    font-size: 2em;
+    width: 220px;
+  }
 }
 
 .img-container {

@@ -5,6 +5,7 @@ export default class extends React.Component {
             <div className={styles['container-mac']}>
                 <div className={styles['image-load']}/>
                 <div className={styles['mac']}/>
+                <div className={styles['mac-hover']}/>
                 <div className={styles['title-mac']}>WEB-сервисы</div>
                 <div className={styles['description-mac']}>Создаем сайты, интернет магазины и бизнес приложения
                 </div>

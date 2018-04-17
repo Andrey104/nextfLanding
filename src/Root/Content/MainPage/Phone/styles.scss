@@ -13,11 +13,13 @@
   }
 
   &:hover .iphone {
-    background: url("./images/iphone_hover.png") no-repeat;
-    background-size: contain;
-    background-position-y: center;
-    background-position-x: center;
-    transition: all .6s linear;
+    opacity: 0;
+    transition: all .4s linear;
+  }
+
+  &:hover .iphone-hover {
+    opacity: 1;
+    transition: all .4s linear;
   }
 
   &:hover .description-iphone {
@@ -41,13 +43,11 @@
   display: none;
 }
 
-.iphone {
+%phone-image {
+  opacity: 1;
+  transition: opacity .4s linear;
   height: 420px;
   width: 210px;
-  background: url("./images/iphone.png") no-repeat;
-  background-size: contain;
-  background-position-y: center;
-  background-position-x: center;
   position: absolute;
   top: calc(50% - 210px);
   left: calc(50% - 105px);
@@ -56,6 +56,23 @@
     height: 350px;
     top: calc(50% - 175px);
   }
+}
+
+.iphone {
+  @extend %phone-image;
+  background: url("./images/iphone.png") no-repeat;
+  background-size: contain;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+.iphone-hover{
+  opacity: 0;
+  @extend %phone-image;
+  background: url("./images/iphone_hover.png") no-repeat;
+  background-size: contain;
+  background-position-y: center;
+  background-position-x: center;
 }
 
 .title-iphone {

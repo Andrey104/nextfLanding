@@ -3,19 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6e08235d-f30a-454f-8ee5-50e583455aeb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageOne/css/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageOne/css/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageOne/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageOne/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Content/MainPage/Welcome/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Content/MainPage/Welcome/css/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Footer/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Footer/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root/Header/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/Header/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OurClients/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OurClients/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,12 +21,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Root/Footer/styles.scss">
+    <leaf>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="90">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Phone/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -55,9 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Root/Header/css/menu.scss" />
-        <option value="$PROJECT_DIR$/src/components/Laptop/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Phone/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/components/Laptop/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/components/MainPage/Laptop/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/MainPage/index.jsx" />
@@ -75,8 +92,6 @@
         <option value="$PROJECT_DIR$/src/media/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/css/styles.scss" />
-        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx" />
-        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/index.jsx" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Portfolio/OneApp/index.js" />
@@ -84,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/components/Portfolio/OneApp/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/index.jsx" />
         <option value="$PROJECT_DIR$/src/Root/index.jsx" />
-        <option value="$PROJECT_DIR$/src/Root/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/index.jsx" />
         <option value="$PROJECT_DIR$/webpack.config.babel.js" />
         <option value="$PROJECT_DIR$/src/components/OurClients/index.jsx" />
@@ -97,8 +111,6 @@
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageOne/css/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Welcome/css/styles.scss" />
-        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/styles.scss" />
-        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageOne/css/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/Agile/styles.scss" />
@@ -106,6 +118,14 @@
         <option value="$PROJECT_DIR$/src/components/Portfolio/styles.scss" />
         <option value="$PROJECT_DIR$/src/components/OurClients/styles.scss" />
         <option value="$PROJECT_DIR$/src/Root/Footer/styles.scss" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/Root/styles.scss" />
+        <option value="$PROJECT_DIR$/src/fonts/stylesheet.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx" />
+        <option value="$PROJECT_DIR$/src/Root/Content/MainPage/Phone/styles.scss" />
       </list>
     </option>
   </component>
@@ -151,12 +171,6 @@
               <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
               <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Root" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -179,22 +193,9 @@
               <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Root" type="462c0819:PsiDirectoryNode" />
-              <item name="Footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Root" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nextfLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nextfLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Root" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="MainPage" type="462c0819:PsiDirectoryNode" />
+              <item name="Phone" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,19 +217,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/fonts" />
+      <recent name="$PROJECT_DIR$/src/Root/Header/images" />
+      <recent name="$PROJECT_DIR$/src/Root/Footer/images" />
+      <recent name="$PROJECT_DIR$/src/components/OurClients/images" />
+      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages" />
       <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Laptop" />
       <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork" />
       <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Phone" />
       <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/Advantages/AdvantageLeft" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Root/Header/images" />
-      <recent name="$PROJECT_DIR$/src/Root/Footer/images" />
-      <recent name="$PROJECT_DIR$/src/components/OurClients/images" />
-      <recent name="$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/FixedCost/images" />
-      <recent name="$PROJECT_DIR$/src/components/Portfolio/OneApp/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,12 +297,13 @@
       <workItem from="1523705735629" duration="501000" />
       <workItem from="1523878739423" duration="14822000" />
       <workItem from="1523910251396" duration="683000" />
-      <workItem from="1523957714349" duration="8268000" />
+      <workItem from="1523957714349" duration="8917000" />
+      <workItem from="1523976007057" duration="2569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92121000" />
+    <option name="totallyTimeSpent" value="95339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -311,12 +313,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.386149" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36621195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30430222" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30430222" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,6 +326,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,20 +336,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/babel-loader/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="123" column="6" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devServer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -355,28 +343,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Root/Content/css/styles.scss" />
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Welcome/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -441,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/OurWork/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -497,24 +457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Root/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -574,9 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,20 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-325">
           <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Phone/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -682,6 +611,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fonts/stylesheet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="2609" column="8" selection-start-line="2609" selection-start-column="8" selection-end-line="2609" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Phone/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Laptop/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root/Content/MainPage/Phone/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
         </state>
       </provider>
     </entry>

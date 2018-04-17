@@ -12,6 +12,11 @@
     background-color: #cd6367;
   }
 
+  .image-load {
+    background: url("./images/macbook_hover.png") no-repeat;
+    display: none;
+  }
+
   &:hover .mac {
     background: url("./images/macbook_hover.png") no-repeat;
     background-size: contain;

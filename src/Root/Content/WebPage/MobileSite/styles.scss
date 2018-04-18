@@ -1,0 +1,138 @@
+@import "../../../../media/mixins";
+
+.container {
+  position: relative;
+  display: block;
+  height: 1350px;
+
+  @include medium-screen() {
+    height: 1100px;
+  }
+}
+
+.container-content {
+  width: 1200px;
+  height: 1300px;
+  position: relative;
+  display: block;
+  left: calc(50% - 600px);
+
+  @include medium-screen() {
+    width: 800px;
+    left: calc(50% - 400px);
+  }
+
+}
+
+.title {
+  user-select: none;
+  width: 1000px;
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: 50px auto 0;
+  font-size: 3em;
+  border-bottom: 2px solid #cd6367;
+
+  @include medium-screen() {
+    font-size: 2em;
+    width: 660px;
+  }
+}
+
+%image {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+
+}
+
+.img-laptop {
+  @extend %image;
+  background: url("./images/macbook.png") no-repeat center;
+  background-size: contain;
+  left: 5%;
+  top: 100px;
+  @include medium-screen() {
+    left: 0;
+    width: 350px;
+    height: 250px;
+    background-size: contain;
+  }
+}
+
+.img-ipad {
+  @extend %image;
+  background: url("./images/ipad.png") no-repeat center;
+  right: 0;
+  top: 500px;
+
+  @include medium-screen() {
+    width: 350px;
+    height: 250px;
+    top: 400px;
+    background-size: contain;
+  }
+}
+
+.img-phone {
+  background: url("./images/iphone.png") no-repeat center;
+  @extend %image;
+  left: 0;
+  top: 900px;
+
+  @include medium-screen() {
+    width: 350px;
+    height: 250px;
+    background-size: contain;
+    top: 750px;
+  }
+}
+
+.description-right-first {
+  position: absolute;
+  width: 550px;
+  display: block;
+  right: 100px;
+  text-align: right;
+  top: 200px;
+
+  @include medium-screen() {
+    width: 350px;
+    height: 250px;
+    top: 90px;
+    right: 0;
+  }
+}
+
+.description-left {
+  position: absolute;
+  width: 550px;
+  display: block;
+  left: 100px;
+  text-align: left;
+  top: 640px;
+
+  @include medium-screen() {
+    width: 350px;
+    height: 250px;
+    top: 400px;
+    left: 0;
+  }
+}
+
+.description-right-second {
+  position: absolute;
+  width: 550px;
+  display: block;
+  right: 100px;
+  text-align: right;
+  top: 1020px;
+
+  @include medium-screen() {
+    width: 350px;
+    height: 250px;
+    top: 750px;
+    right: 0;
+  }
+}

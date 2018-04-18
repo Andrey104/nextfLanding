@@ -1,0 +1,90 @@
+@import "../../../../media/mixins";
+
+.container {
+  display: block;
+  position: relative;
+  height: 600px;
+}
+
+%description {
+  width: 200px;
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.title {
+  user-select: none;
+  width: 350px;
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: 50px auto 0;
+  font-size: 3em;
+  border-bottom: 2px solid #cd6367;
+
+  @include medium-screen() {
+    font-size: 2em;
+    width: 330px;
+  }
+}
+
+.description-1 {
+  @extend %description;
+  left: 35px;
+
+  @include large-screen() {
+    left: 100px;
+  }
+}
+
+.description-2 {
+  @extend %description;
+  left: 305px;
+
+  @include large-screen() {
+    left: 500px;
+  }
+}
+
+.description-3 {
+  @extend %description;
+  left: 575px;
+
+  @include large-screen() {
+    left: 900px;
+  }
+}
+
+.container-images {
+  display: block;
+  margin-top: 120px;
+  position: relative;
+  width: 830px;
+  left: calc(50% - 415px);
+
+  @include large-screen() {
+    width: 1200px;
+    left: calc(50% - 600px);
+  }
+}
+
+%image {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: auto 35px;
+
+  @include large-screen() {
+    margin: auto 100px;
+  }
+}
+
+@for $i from 1 through 3 {
+  .image-#{$i} {
+    @extend %image;
+    background: url('./images/#{$i}.png') no-repeat center;
+
+  }
+}

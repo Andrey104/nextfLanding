@@ -1,5 +1,6 @@
 import Welcome from './Welcome';
 import Advantages from './Advantages';
+import WhyMobile from './WhyMobile';
 
 export default class extends React.Component {
 
@@ -8,6 +9,7 @@ export default class extends React.Component {
             <div>
                 <Welcome/>
                 <Advantages/>
+                <WhyMobile/>
             </div>
         )
     }

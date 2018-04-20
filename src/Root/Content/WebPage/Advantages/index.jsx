@@ -43,7 +43,7 @@ export default class extends React.Component {
                 <div className={styles['right-side']}>
                     {rightArray}
                 </div>
-                <button className={styles['btn-order']}>Оставить заявку</button>
+                <div className={styles.rocket} />
                 <div className={styles['line']} />
             </div>
         );

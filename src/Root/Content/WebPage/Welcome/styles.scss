@@ -26,6 +26,33 @@
 
 }
 
+.btn-order {
+  margin-top: 200px;
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  left: calc(50% - 125px);
+  border-radius: 8px;
+  background-color: #544648;
+  border-style: none;
+  font-size: 1.5em;
+  color: white;
+  outline: none;
+
+  @include medium-screen{
+    margin-top: 120px;
+  }
+
+  @include small-screen{
+    margin-top: 80px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #3a2d34;
+  }
+}
+
 .main-label {
   text-align: center;
   color: white;

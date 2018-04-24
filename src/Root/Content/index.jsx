@@ -3,6 +3,7 @@ import {Route, Switch} from "react-router-dom";
 import MainPage from './MainPage';
 import WebPage from './WebPage';
 import MobilePage from './MobilePage';
+import About from './About';
 
 export default class extends React.Component {
     render() {
@@ -12,6 +13,7 @@ export default class extends React.Component {
                     <Route exact path='/' component={MainPage}/>
                     <Route exact path='/web' component={WebPage}/>
                     <Route exact path='/mobile' component={MobilePage}/>
+                    <Route exact path='/about' component={About}/>
                 </Switch>
             </div>
         )

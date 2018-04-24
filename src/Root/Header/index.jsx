@@ -3,6 +3,12 @@ import {Link} from 'react-router-dom';
 import styles from './css/styles.scss';
 
 export default class extends React.Component {
+
+    constructor(props) {
+        super(props);
+        console.log(props);
+    }
+
     render() {
         return (
             <div>
@@ -15,7 +21,7 @@ export default class extends React.Component {
                         <Link to='/' className={styles['menu-element']}>Главная</Link>
                         <Link to='/' className={styles['menu-element']}>Услуги</Link>
                         <Link to='/' className={styles['menu-element']}>Портфолио</Link>
-                        <Link to='/' className={styles['menu-element']}>Контакты</Link>
+                        <Link to='/about' className={styles['menu-element']}>Контакты</Link>
                         <Link to='/' className={styles['menu-element']}>Клиенты</Link>
                     </div>
                     <div className={styles['phone-info']}>
@@ -25,4 +31,4 @@ export default class extends React.Component {
             </div>
         )
     }
-}
+};

@@ -9,7 +9,7 @@
 
 }
 
-@mixin medium-screen() {
+@mixin med-screen() {
   @media screen and (max-width: 1200px) {
     @content
   }
@@ -48,6 +48,10 @@
   //left: calc(50% - 415px);
   background-color: #b2b2b2;
 
+  @include medium-screen() {
+    width: 800px;
+    left: calc(50% - 400px);
+  }
 }
 
 .rocket {

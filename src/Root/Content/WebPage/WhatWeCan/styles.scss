@@ -3,13 +3,21 @@
 .container {
   display: block;
   position: relative;
-  height: 600px;
+  height: 800px;
 }
 
 %description {
   width: 200px;
   position: absolute;
   top: 200px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+%description-2 {
+  width: 200px;
+  position: absolute;
+  top: 500px;
   text-align: center;
   font-size: 1.2em;
 }
@@ -57,9 +65,36 @@
   }
 }
 
+.description-4 {
+  @extend %description-2;
+  left: 35px;
+
+  @include large-screen() {
+    left: 100px;
+  }
+}
+
+.description-5 {
+  @extend %description-2;
+  left: 305px;
+
+  @include large-screen() {
+    left: 500px;
+  }
+}
+
+.description-6 {
+  @extend %description-2;
+  left: 575px;
+
+  @include large-screen() {
+    left: 900px;
+  }
+}
+
 .container-images {
   display: block;
-  margin-top: 120px;
+  margin-top: 50px;
   position: relative;
   width: 830px;
   left: calc(50% - 415px);
@@ -74,10 +109,10 @@
   display: inline-block;
   width: 200px;
   height: 200px;
-  margin: auto 35px;
+  margin: auto 35px 100px;
 
   @include large-screen() {
-    margin: auto 100px;
+    margin: auto 100px 100px;
   }
 }
 

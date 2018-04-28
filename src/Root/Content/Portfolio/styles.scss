@@ -1,3 +1,5 @@
+@import "./mixins";
+
 .container {
   display: block;
   position: relative;
@@ -22,6 +24,12 @@
   display: block;
   text-align: center;
   left: calc(50% - 125px);
+
+  @include medium-screen {
+    font-size: 2em;
+    width: 170px;
+    left: calc(50% - 85px);
+  }
 
 }
 
@@ -55,12 +63,30 @@ button {
   position: relative;
   left: calc(50% - 650px);
   top: 100px;
+
+  @include medium-screen {
+    width: 1000px;
+    left: calc(50% - 500px);
+  }
+
+  @include small-screen {
+    width: 800px;
+    left: calc(50% - 400px);
+  }
 }
 
 .left {
   width: 600px;
   display: inline-block;
   position: relative;
+
+  @include medium-screen {
+    width: 450px;
+  }
+
+  @include small-screen {
+    width: 400px;
+  }
 }
 
 .right {
@@ -68,4 +94,12 @@ button {
   width: 600px;
   display: inline-block;
   position: relative;
+
+  @include medium-screen {
+    width: 450px;
+  }
+  @include small-screen {
+    left: 20px;
+    width: 400px;
+  }
 }

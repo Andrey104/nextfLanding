@@ -20,6 +20,7 @@
 }
 
 .btn {
+  display: block;
   width: 250px;
   position: relative;
   left: calc(50% - 125px);
@@ -31,6 +32,10 @@
   color: #cd6367;
   margin-top: 50px;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: center;
   background-color: white;
   &:hover {
     background-color: #d8d4d4;

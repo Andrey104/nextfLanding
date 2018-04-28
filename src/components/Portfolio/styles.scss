@@ -75,6 +75,11 @@
   border-radius: 8px;
   outline: none;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: center;
+  display: block;
 
   &:hover {
     background-color: #a75054;

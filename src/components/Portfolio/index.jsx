@@ -1,5 +1,6 @@
 import styles from './styles.scss';
 import OneApp from './OneApp';
+import {Link} from "react-router-dom";
 
 export default class extends React.Component {
     apps = [
@@ -56,7 +57,7 @@ export default class extends React.Component {
                     <OneApp app={this.apps[0]} left={true}/>
                     <OneApp app={this.apps[1]}/>
                 </div>}
-                <button className={styles.button}>Больше наших работ</button>
+                <Link to={'/portfolio'} className={styles.button}>Больше наших работ</Link>
             </div>
         );
     }

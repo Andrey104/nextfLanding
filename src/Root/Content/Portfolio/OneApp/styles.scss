@@ -1,3 +1,4 @@
+@import "../mixins";
 .container {
   display: block;
   position: relative;
@@ -6,6 +7,16 @@
   height: 200px;
   background-color: #37383e;
   margin-top: 20px;
+
+  @include medium-screen {
+    width: 450px;
+    left: calc(50% - 225px);
+  }
+
+  @include small-screen {
+    width: 400px;
+    left: calc(50% - 200px);
+  }
 }
 
 %icon {
@@ -30,6 +41,17 @@
   height: 150px;
   vertical-align: top;
   color: white;
+
+  @include medium-screen {
+    width: 205px;
+    left: 10px;
+    top: 15px;
+  }
+
+  @include small-screen {
+    width: 175px;
+    font-size: .9em;
+  }
 }
 
 .icon-android {
@@ -63,6 +85,14 @@
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
+
+    @include medium-screen {
+      width: 225px;
+    }
+
+    @include small-screen {
+      width: 200px;
+    }
 
   }
 }

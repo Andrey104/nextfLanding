@@ -23,7 +23,7 @@ export default class extends React.Component {
                 <WhatWeCan/>
                 <MobileSite/>
                 <OurWork/>
-                <Portfolio/>
+                <Portfolio page={'web'}/>
                 <OurClients/>
                 <OrderBottom/>
             </div>

@@ -32,7 +32,8 @@
 }
 
 .title {
-  width: 900px;
+  width: 680px;
+  border-bottom: 2px solid #cd6367;
   user-select: none;
   text-align: center;
   display: block;
@@ -41,7 +42,7 @@
   font-size: 3em;
 
   @include medium-screen() {
-    width: 700px;
+    width: 450px;
     font-size: 2em;
   }
 

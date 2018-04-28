@@ -6,8 +6,8 @@
   min-width: 800px;
   position: relative;
   height: 100vh;
-  background: url("../images/oboi.jpg") no-repeat;
-  background-size: cover;
+  outline: none;
+  border: none;
 }
 
 .content-first-page {
@@ -42,10 +42,10 @@
   height: 50px;
   left: calc(50% - 125px);
   border-radius: 8px;
-  background-color: #544648;
+  background-color: #efdcdc;
   border-style: none;
   font-size: 1.5em;
-  color: white;
+  color: #ab3456;
   outline: none;
 
   @include medium-screen{
@@ -58,6 +58,6 @@
 
   &:hover {
     cursor: pointer;
-    background-color: #3a2d34;
+    background-color: #ccbcbc;
   }
 }

@@ -21,7 +21,7 @@ export default class extends React.Component {
                 <Laptop />
                 <Advantages />
                 <OurWork />
-                <Portfolio />
+                <Portfolio page={'main'} />
                 <OurClients />
                 <OrderBottom />
 

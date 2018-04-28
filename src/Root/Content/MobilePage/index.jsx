@@ -17,7 +17,7 @@ export default class extends React.Component {
                 <Advantages/>
                 <WhyMobile/>
                 <CycleDev/>
-                <Portfolio/>
+                <Portfolio page={'mobile'}/>
                 <OrderBottom/>
             </div>
         )

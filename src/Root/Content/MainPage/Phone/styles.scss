@@ -43,6 +43,11 @@
   display: none;
 }
 
+.ancor {
+  position: absolute;
+  top: calc(100vh - 60px);
+}
+
 %phone-image {
   opacity: 1;
   transition: opacity .4s linear;
@@ -66,7 +71,7 @@
   background-position-x: center;
 }
 
-.iphone-hover{
+.iphone-hover {
   opacity: 0;
   @extend %phone-image;
   background: url("./images/iphone_hover.png") no-repeat;

@@ -106,9 +106,9 @@
   }
 }
 
-@for $i from 1 through 8 {
+@for $i from 1 through 6 {
   .image-#{$i} {
     @extend %image;
-    background: url('../images/#{$i}.png') no-repeat;
+    background: url('../images/#{$i}.svg') no-repeat;
   }
 }

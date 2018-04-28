@@ -19,10 +19,9 @@ export default class extends React.Component {
                     </Link>
                     <div className={styles.menu}>
                         <Link to='/' className={styles['menu-element']}>Главная</Link>
-                        <Link to='/' className={styles['menu-element']}>Услуги</Link>
+                        <Link to='/#ourwork' target="_self" className={styles['menu-element']}>Услуги</Link>
                         <Link to='/' className={styles['menu-element']}>Портфолио</Link>
                         <Link to='/about' className={styles['menu-element']}>Контакты</Link>
-                        <Link to='/' className={styles['menu-element']}>Клиенты</Link>
                     </div>
                     <div className={styles['phone-info']}>
                         <div className={styles.phone}>+7 (499) 229-30-39</div>

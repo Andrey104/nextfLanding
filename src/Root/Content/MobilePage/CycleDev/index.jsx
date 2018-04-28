@@ -4,7 +4,7 @@ export default class extends React.Component {
     render() {
         return (
             <div className={styles.container}>
-                <div className={styles.title}>Полный цикл разработки мобильных приложений на заказ</div>
+                <div className={styles.title}>Цикл разработки приложения</div>
                 <div className={styles.iphone}>
                     <div className={styles['iphone-img-1']}/>
                     <div className={styles['iphone-img-2']}/>

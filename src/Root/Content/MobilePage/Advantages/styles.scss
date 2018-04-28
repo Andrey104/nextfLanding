@@ -1,13 +1,6 @@
 @import "../../../Header/css/vars";
 @import "../../../../media/mixins";
 
-.advantages-container {
-  position: relative;
-  width: 100%;
-  height: 800px;
-  min-width: 830px;
-
-}
 
 @mixin med-screen() {
   @media screen and (max-width: 1200px) {
@@ -15,12 +8,24 @@
   }
 }
 
-
 @mixin large-rocket() {
   @media screen and (min-width: 1490px) {
     @content
   }
 }
+
+
+.advantages-container {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  min-width: 830px;
+
+  @include large-rocket() {
+   height: 800px;
+  }
+}
+
 
 .title {
   user-select: none;
@@ -44,13 +49,17 @@
   width: 1200px;
   left: calc(50% - 600px);
   position: relative;
-  display: block;
+  display: none;
   //left: calc(50% - 415px);
   background-color: #b2b2b2;
 
   @include medium-screen() {
     width: 800px;
     left: calc(50% - 400px);
+  }
+
+  @include large-rocket {
+    display: block;
   }
 }
 
@@ -72,7 +81,6 @@
     background-size: contain;
   }
 }
-
 
 .left-side {
   position: relative;

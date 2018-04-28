@@ -10,7 +10,7 @@ export default class extends React.Component {
     render(){
         return(
             <div className={styles.container}>
-                <div className={styles.title}>Наши клиенты</div>
+                <div className={styles.title}>Наши партнеры</div>
                 <div className={styles['img-container']}>
                     <div className={styles['img-client-1']}/>
                     <div className={styles['img-client-2']}/>

@@ -31,6 +31,49 @@
     background: url('./images/#{$i}.png') no-repeat;
     background-position-x: center;
     background-position-y: center;
+    background-size: contain;
+
+    @include med-screen {
+      height: 200px;
+      width: 200px;
+      left: calc(50% - 100px);
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+    }
+  }
+}
+
+@for $i from 1 through 4 {
+  .image-mobile-#{$i} {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: calc(50% - 110px);
+    background: url('./images/mobile-#{$i}.png') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+    @include med-screen {
+      height: 200px;
+      width: 200px;
+      left: calc(50% - 100px);
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+    }
+  }
+}
+
+@for $i from 1 through 4 {
+  .image-web-#{$i} {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: calc(50% - 110px);
+    background: url('./images/web-#{$i}.png') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 
     @include med-screen {
       height: 200px;
@@ -44,13 +87,22 @@
 }
 
 .title {
+  top: 15px;
   color: white;
   text-align: center;
   font-size: 1.1em;
   font-weight: bold;
+  width: 250px;
+  position: relative;
+  left: calc(50% - 110px);
 
   @include med-screen {
     margin-top: 10px;
+  }
+
+  @include med-screen {
+    width: 200px;
+    left: calc(50% - 100px);
   }
 }
 
@@ -78,21 +130,21 @@
 
 .icon-android {
   @extend %icon;
-  background: url("./images/anrdoid.png") no-repeat;
+  background: url("./images/android.svg") no-repeat;
   background-position-x: center;
   background-position-y: center;
 }
 
 .icon-apple {
   @extend %icon;
-  background: url("./images/apple.png") no-repeat;
+  background: url("./images/apple.svg") no-repeat;
   background-position-x: center;
   background-position-y: center;
 }
 
 .icon-pc {
   @extend %icon;
-  background: url("./images/pc.png") no-repeat;
+  background: url("./images/pc.svg") no-repeat;
   background-position-x: center;
   background-position-y: center;
 }

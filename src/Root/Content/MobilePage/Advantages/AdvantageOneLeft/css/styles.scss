@@ -26,8 +26,7 @@
   top: calc(50% - 40px);
   width: 80px;
   height: 80px;
-  background-position-x: center;
-  background-position-y: center;
+
 
   @include large-screen(){
     left: calc(50% - 270px);
@@ -109,6 +108,9 @@
 @for $i from 1 through 3 {
   .image-#{$i} {
     @extend %image;
-    background: url('../images/#{$i}.png') no-repeat;
+    background-image: url('../images/#{$i}.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }

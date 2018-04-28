@@ -91,12 +91,12 @@ export default {
                     {
                         loader: "url-loader",
                         options: {
-                            limit: 25000,
+                            limit: 1,
                         }
                     }]
             },
             {
-                test: /\.(eot|svg|ttf|woff|woff2)$/,
+                test: /\.(eot|ttf|woff|woff2)$/,
                 use: {
                     loader: 'file-loader',
                     options: {

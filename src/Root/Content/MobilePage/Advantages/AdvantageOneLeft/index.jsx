@@ -19,6 +19,7 @@ export default class extends React.Component {
                     <div className={styles.content}>
                         {this.adv.content}
                     </div>
+                    <div className={styles.spinner}></div>
                 </div>
             </div>
         )

@@ -32,7 +32,7 @@
   position: absolute;
   top: 25px;
   left: 85px;
-  background: url("./images/arrow.png") no-repeat;
+  background: url("./images/arrow.svg") no-repeat;
   box-sizing: border-box;
 }
 
@@ -47,42 +47,42 @@
 
 .image-order {
   @extend %image-dev;
-  background: url("./images/order.png") no-repeat;
+  background: url("./images/order.svg") no-repeat;
   background-position-x: center;
   background-position-y: center;
 }
 
 .image-analysis {
   @extend %image-dev;
-  background: url("./images/analysis.png") no-repeat;
+  background: url("./images/analysis.svg") no-repeat;
   background-position-x: center;
   background-position-y: center;
 }
 
 .image-contract {
   @extend %image-dev;
-  background: url("./images/contract.png") no-repeat;
+  background: url("./images/contract.svg") no-repeat;
   background-position-x: center;
   background-position-y: center;
 }
 
 .image-development {
   @extend %image-dev;
-  background: url("./images/development.png") no-repeat;
+  background: url("./images/development.svg") no-repeat;
   background-position-x: center;
   background-position-y: center;
 }
 
 .image-test {
   @extend %image-dev;
-  background: url("./images/test.png") no-repeat;
+  background: url("./images/test.svg") no-repeat;
   background-position-x: center;
   background-position-y: center;
 }
 
 .image-start {
   @extend %image-dev;
-  background: url("./images/start.png") no-repeat;
+  background: url("./images/start.svg") no-repeat;
   background-position-x: center;
   background-position-y: center;
 }

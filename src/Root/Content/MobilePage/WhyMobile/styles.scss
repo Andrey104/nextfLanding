@@ -14,6 +14,8 @@
 }
 
 .title {
+  border-bottom: 2px solid #cd6367;
+  width: 800px;
   user-select: none;
   text-align: center;
   display: block;
@@ -23,6 +25,7 @@
 
   @include medium-screen() {
     font-size: 2em;
+    width: 530px;
   }
 
 }

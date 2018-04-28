@@ -13,16 +13,16 @@
   padding: 0;
 
   @include medium-screen {
-    width: $menu-width - 150px;
-    $new-width: $menu-width - 150px;
+    $new-width: $menu-width - 80px;
+    width: $new-width;
     left: calc(50% - #{$new-width} / 2);
     a {
-      margin: 0 15px;
+      margin: 0 20px;
     }
   }
 
   @include small-screen {
-    width: 555px;
+    width: 485px;
     right: 10px;
     left: auto;
     margin: 0;

@@ -38,6 +38,10 @@
   font-size: 1.5em;
   color: #7c4218;
   outline: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: center;
 
   @include medium-screen{
     margin-top: 120px;

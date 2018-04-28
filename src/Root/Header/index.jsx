@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import {HashLink as Link} from 'react-router-hash-link';
 
 import styles from './css/styles.scss';
 
@@ -19,7 +19,7 @@ export default class extends React.Component {
                     </Link>
                     <div className={styles.menu}>
                         <Link to='/' className={styles['menu-element']}>Главная</Link>
-                        <Link to='/#ourwork' target="_self" className={styles['menu-element']}>Услуги</Link>
+                        <Link to='/#services' className={styles['menu-element']}>Услуги</Link>
                         <Link to='/' className={styles['menu-element']}>Портфолио</Link>
                         <Link to='/about' className={styles['menu-element']}>Контакты</Link>
                     </div>

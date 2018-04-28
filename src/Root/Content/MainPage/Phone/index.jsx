@@ -7,7 +7,7 @@ export default class extends React.Component {
     render() {
         return (
             <Link to='/mobile'>
-                <div id={'ourwork'} className={styles.ancor}/>
+                <div id={'services'} className={styles.ancor}/>
                 <div className={styles['container-iphone']}>
                     <div className={styles['image-load']}/>
                     <div className={styles['iphone']}/>

@@ -1,4 +1,5 @@
 import Inputmask from "inputmask";
+import axios from 'axios';
 
 
 import styles from './styles.scss';
@@ -11,11 +12,18 @@ export default class extends React.Component {
         im.mask(this.refs.phone);
     }
 
-    send = () => {
-        console.log(this.refs.comment.value);
-        console.log(this.refs.name.value);
-        console.log(this.refs.email.value);
-        console.log(this.refs.phone.value);
+    send = async () => {
+        try {
+            const response = await axios.post('/form', {
+                name: this.refs.name.value,
+                email: this.refs.email.value,
+                phone: this.refs.phone.value,
+                comment: this.refs.comment.value,
+            });
+            console.log(response);
+        } catch (error) {
+            console.error(error);
+        }
     };
 
     render() {

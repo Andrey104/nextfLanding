@@ -5,7 +5,7 @@ import Advantages from './Advantages';
 import OurWork from './OurWork';
 import OurClients from '../../../components/OurClients';
 import OrderBottom from '../../../components/OrderBottom';
-import Portfolio from '../../../components/Portfolio';
+import Portfolio from '../../../components/Portfolio/index';
 
 export default class extends React.Component {
 

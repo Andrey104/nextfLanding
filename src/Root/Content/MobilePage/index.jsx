@@ -2,7 +2,7 @@ import Welcome from './Welcome';
 import Advantages from './Advantages';
 import WhyMobile from './WhyMobile';
 import CycleDev from './CycleDev';
-import Portfolio from '../../../components/Portfolio';
+import Portfolio from '../../../components/Portfolio/index';
 import OrderBottom from '../../../components/OrderBottom';
 
 export default class extends React.Component {

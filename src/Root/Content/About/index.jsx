@@ -1,5 +1,6 @@
 import Inputmask from "inputmask";
 
+
 import styles from './styles.scss';
 
 export default class extends React.Component {
@@ -11,7 +12,10 @@ export default class extends React.Component {
     }
 
     send = () => {
-        console.log(this.refs.phone.text)
+        console.log(this.refs.comment.value);
+        console.log(this.refs.name.value);
+        console.log(this.refs.email.value);
+        console.log(this.refs.phone.value);
     };
 
     render() {
@@ -20,7 +24,7 @@ export default class extends React.Component {
                 <iframe className={styles.map}
                         src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad94d8ca207b951c6aa4572c2a810702ad7b384d67c9d40c9a455fb35c51f6f39&amp;source=constructor"
                         width="100%" height="655" frameBorder="0"/>
-                <div className={styles['no-map']}>Тут должна быть карта</div>
+                <div className={styles['no-map']}>Идет загрузка карты</div>
                 <div className={styles.title}>Контакты</div>
                 <div className={styles['container-center']}>
                     <div className={styles.contacts}>
@@ -34,10 +38,10 @@ export default class extends React.Component {
                 </div>
                 <div className={styles.form}>
                     <div className={styles['title-form']}>Оставьте заявку и мы свяжемся с вами</div>
-                    <input placeholder={'Имя'} className={styles.inpt}/>
+                    <input ref={'name'} placeholder={'Имя'} className={styles.inpt}/>
                     <input ref={'email'} placeholder={'e-mail'} className={styles.inpt}/>
                     <input ref={'phone'} placeholder={'Телефон'} className={styles.inpt}/>
-                    <input placeholder={'Комментарий'} className={styles['input-comment']}/>
+                    <textarea ref={'comment'} placeholder={'Комментарий'} className={styles['input-comment']}/>
                     <button onClick={this.send} className={styles.btn}>Отправить заявку</button>
                 </div>
             </div>

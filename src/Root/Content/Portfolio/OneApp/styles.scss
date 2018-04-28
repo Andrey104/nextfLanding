@@ -1,0 +1,73 @@
+.container {
+  display: block;
+  position: relative;
+  width: 600px;
+  left: calc(50% - 300px);
+  height: 200px;
+  background-color: #37383e;
+  margin-top: 20px;
+}
+
+%icon {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+%icon:first-child {
+  margin-left: 0;
+}
+
+.description {
+  position: relative;
+  display: inline-block;
+  top: calc(50% - 60px);
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  height: 150px;
+  vertical-align: top;
+  color: white;
+}
+
+.icon-android {
+  @extend %icon;
+  background: url("./images/android.svg") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.icon-apple {
+  @extend %icon;
+  background: url("./images/apple.svg") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.icon-pc {
+  @extend %icon;
+  background: url("./images/pc.svg") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+@for $i from 1 through 4 {
+  .image-#{$i} {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    background: url('./images/#{$i}.png') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+
+  }
+}
+
+.icon-container {
+  position: relative;
+  display: block;
+}

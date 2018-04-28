@@ -1,0 +1,71 @@
+.container {
+  display: block;
+  position: relative;
+  top: 80px;
+  height: 900px;
+}
+
+.buttons {
+  top: 40px;
+  display: block;
+  position: relative;
+  width: 800px;
+  left: calc(50% - 400px);
+
+}
+
+.title {
+  width: 250px;
+  font-size: 3em;
+  border-bottom: 2px solid #cd6367;
+  position: relative;
+  display: block;
+  text-align: center;
+  left: calc(50% - 125px);
+
+}
+
+button {
+  margin: 10px 33px;
+  width: 200px;
+  height: 40px;
+  outline: none;
+  background: white;
+  border: 1px solid black;
+  font-size: 1.2em;
+
+  &:hover {
+    background: #e6e4e4;
+  }
+}
+
+.active-btn {
+  background: #cd6367;
+  color: white;
+  border: none;
+
+  &:hover {
+    background: #cd6367;
+  }
+}
+
+.apps-container {
+  width: 1300px;
+  display: block;
+  position: relative;
+  left: calc(50% - 650px);
+  top: 100px;
+}
+
+.left {
+  width: 600px;
+  display: inline-block;
+  position: relative;
+}
+
+.right {
+  left: 100px;
+  width: 600px;
+  display: inline-block;
+  position: relative;
+}

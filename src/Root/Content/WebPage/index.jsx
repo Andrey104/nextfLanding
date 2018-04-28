@@ -3,7 +3,7 @@ import Advantages from './Advantages';
 import WhatWeCan from './WhatWeCan';
 import MobileSite from './MobileSite';
 import OurWork from '../MainPage/OurWork';
-import Portfolio from '../../../components/Portfolio';
+import Portfolio from '../../../components/Portfolio/index';
 import OurClients from '../../../components/OurClients';
 import OrderBottom from '../../../components/OrderBottom';
 

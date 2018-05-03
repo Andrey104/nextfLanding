@@ -7,7 +7,6 @@ export default class extends React.Component {
     render() {
         return (
             <Link to='/mobile'>
-                <div id={'services'} className={styles.ancor}/>
                 <div className={styles['container-iphone']}>
                     <div className={styles['image-load']}/>
                     <div className={styles['iphone']}/>
@@ -16,6 +15,7 @@ export default class extends React.Component {
                     <div className={styles['description-iphone']}>Разрабатываем приложения для всех типов устройств
                     </div>
                 </div>
+                <div id={'services'} className={styles.ancor}/>
             </Link>
         )
     }

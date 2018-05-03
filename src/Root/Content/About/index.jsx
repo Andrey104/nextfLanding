@@ -40,16 +40,16 @@ export default class extends React.Component {
                         <div className={styles.address}>Москва, Большая почтовая 36с8</div>
                         <div className={styles.email}>info@next.ru</div>
                     </div>
-                    <div className={styles.description}>Свяжитесь с нами люым удобным способом,
+                    <div className={styles.description}>Свяжитесь с нами любым удобным способом,
                         мы ответим на все ваши вопросы и рассчитаем приблизительную стоимость реализации проекта
                     </div>
                 </div>
                 <div className={styles.form}>
                     <div className={styles['title-form']}>Оставьте заявку и мы свяжемся с вами</div>
                     <input ref={'name'} placeholder={'Имя'} className={styles.inpt}/>
-                    <input ref={'email'} placeholder={'e-mail'} className={styles.inpt}/>
+                    <input ref={'email'} placeholder={'E-mail'} className={styles.inpt}/>
                     <input ref={'phone'} placeholder={'Телефон'} className={styles.inpt}/>
-                    <textarea ref={'comment'} placeholder={'Комментарий'} className={styles['input-comment']}/>
+                    <textarea ref={'comment'} id={'comment'} placeholder={'Комментарий'} className={styles['input-comment']}/>
                     <button onClick={this.send} className={styles.btn}>Отправить заявку</button>
                 </div>
             </div>

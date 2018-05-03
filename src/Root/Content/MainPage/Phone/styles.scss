@@ -4,7 +4,8 @@
   position: relative;
   width: 50%;
   display: inline-block;
-  height: 900px;
+  height: calc(100vh - 60px);
+  min-height: 600px;
   cursor: pointer;
 
   &:hover {

@@ -11,7 +11,7 @@ export default class extends React.Component {
                 <img className={styles['back-image']} src={'/static/oboi-web.jpg'}/>
                 <div className={styles['content-first-page']}>
                     <div className={styles['main-label']}>Разрабатываем web-приложения, сложные сайты и сервисы</div>
-                    <Link to={'/about'} className={styles['btn-order']}>Заказать</Link>
+                    <Link to={'/about/#form'} className={styles['btn-order']}>Заказать</Link>
                 </div>
             </div>
         )

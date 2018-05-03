@@ -44,7 +44,7 @@ export default class extends React.Component {
                         мы ответим на все ваши вопросы и рассчитаем приблизительную стоимость реализации проекта
                     </div>
                 </div>
-                <div className={styles.form}>
+                <div id={'form'} className={styles.form}>
                     <div className={styles['title-form']}>Оставьте заявку и мы свяжемся с вами</div>
                     <input ref={'name'} placeholder={'Имя'} className={styles.inpt}/>
                     <input ref={'email'} placeholder={'E-mail'} className={styles.inpt}/>

@@ -10,7 +10,7 @@ export default class extends React.Component {
                 <img className={styles['back-image']} src={'/static/oboi-main.jpg'}/>
                 <div className={styles['content-first-page']}>
                     <div className={styles['main-label']}>Создание web-сайтов и разработка мобильных приложений</div>
-                    <Link to={'/about'} onClick={this.redirectToOrder} className={styles['btn-order']}>Заказать</Link>
+                    <Link to={'/about/#form'} onClick={this.redirectToOrder} className={styles['btn-order']}>Заказать</Link>
                 </div>
             </div>
         )

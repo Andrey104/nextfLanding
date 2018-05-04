@@ -10,7 +10,7 @@ export default class extends React.Component {
         return (
             <div className={styles.container}>
                 <div className={styles.title}>Мы найдем лучшее решение вашей задачи!</div>
-                <Link to={'/about'} className={styles.btn}>Оставить заявку</Link>
+                <Link to={'/about/#form'} className={styles.btn}>Оставить заявку</Link>
             </div>
         );
     }
